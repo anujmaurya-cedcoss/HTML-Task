@@ -29,18 +29,31 @@
         <li>thunder</li>
         <li>other cats</li>
       </ol>
-
-      <!-- Create a Set of Radio Buttons -->
       <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <label for="indoor"
+          ><input id="indoor" type="radio" name="indoor-outdoor" />
+          Indoor</label
+        >
+        <label for="outdoor"
+          ><input id="outdoor" type="radio" name="indoor-outdoor" />
+          Outdoor</label
+        ><br />
         <input type="text" placeholder="cat photo URL" required />
         <button type="submit">Submit</button>
-        <label for="indoor">
-          <input type="radio" name="indoor-outdoor" /> Indoor
+
+        <!-- Create a Set of Checkboxes -->
+        <label for="checkbox1"
+          ><input id="checkbox1" type="checkbox" name="personality" /> Checkbox1
         </label>
 
-        <label for="outdoor">
-          <input type="radio" name="indoor-outdoor" /> Outdoor
+        <label for="checkbox2"
+          ><input id="checkbox2" type="checkbox" name="personality" /> Checkbox2
         </label>
+
+        <label for="checkbox3"
+          ><input id="checkbox3" type="checkbox" name="personality" />
+          Checkbox3</label
+        >
       </form>
     </main>
   </body>
