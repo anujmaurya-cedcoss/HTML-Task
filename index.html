@@ -29,10 +29,18 @@
         <li>thunder</li>
         <li>other cats</li>
       </ol>
-      <!-- Use HTML5 to Require a Field -->
+
+      <!-- Create a Set of Radio Buttons -->
       <form action="https://www.freecatphotoapp.com/submit-cat-photo">
         <input type="text" placeholder="cat photo URL" required />
         <button type="submit">Submit</button>
+        <label for="indoor">
+          <input type="radio" name="indoor-outdoor" /> Indoor
+        </label>
+
+        <label for="outdoor">
+          <input type="radio" name="indoor-outdoor" /> Outdoor
+        </label>
       </form>
     </main>
   </body>
